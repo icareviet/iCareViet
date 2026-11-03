@@ -1,0 +1,20 @@
+{
+  "bounds": {"left": -33, "right": 33, "back": -14, "front": 84},
+  "hall": {"left": -21, "right": 21, "back": -14, "front": 25.4, "floor": 0.13, "ceiling": 16.6},
+  "spawn": {"x": 0, "z": 72},
+  "channel": {"left": -31, "right": 31, "back": 30, "front": 38},
+  "bridge": {"halfWidth": 3.6, "back": 28, "front": 40, "rise": 1.55},
+  "columns": {"x": [-12.8, 12.8], "z": [-10, -2, 6, 14, 22]},
+  "cushions": {"x": [-9.8, -7.2, -4.6, 4.6, 7.2, 9.8], "z": [-3, 0.2, 3.4, 6.6, 9.8, 13, 16.2, 19.4]},
+  "shrine": {"left": -7.6, "right": 7.6, "back": -14, "front": -6.5},
+  "basins": [{"x": -18, "z": 49, "rx": 6, "rz": 9}, {"x": 18, "z": 64, "rx": 6, "rz": 8}],
+  "walls": [[-22.5,-21,-14,25.7],[21,22.5,-14,25.7],[-22,-11.5,25,26],[-6,-4.2,25,26],[4.2,6,25,26],[11.5,22,25,26]],
+  "trees": [{"x":-29,"z":27},{"x":-29,"z":43},{"x":-29,"z":58},{"x":-28,"z":72},{"x":29,"z":27},{"x":28,"z":43},{"x":29,"z":52},{"x":29,"z":73},{"x":-26,"z":9},{"x":26,"z":10}],
+  "destinations": {
+    "hall": {"x":0,"z":-4.6,"label":"Chánh điện","description":"Bên trong chánh điện, trước tòa sen"},
+    "courtyard": {"x":0,"z":46,"label":"Sân chùa","description":"Sân đá bên kia cầu qua hồ nước"},
+    "pond": {"x":-18,"z":61.5,"label":"Hồ sen","description":"Hồ sen và đèn hoa đăng ngoài sân"},
+    "garden": {"x":19,"z":46,"label":"Vườn tĩnh tâm","description":"Lối cây xanh phía đông sân chùa"},
+    "gate": {"x":0,"z":80,"label":"Cổng tam quan","description":"Cổng ngoài của khuôn viên chùa"}
+  }
+}

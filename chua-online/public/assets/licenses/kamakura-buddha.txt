@@ -1,0 +1,13 @@
+The Great Buddha at Kamakura, Japan
+Creator: Scan-the-World
+Source: https://zenodo.org/records/20207851
+Original file: 82baab92cad4c7cb0a4ab1e81eaa9840.glb
+Original MD5: 8a0b42335d0962bbb3ffb61b01032d8c
+License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Changes: Draco compression decoded for local CSP-compatible loading. The application
+normalizes scale and applies a gold material. The sculpture remains under the same
+CC BY-NC-SA 4.0 license. The model is limited to noncommercial use. Replace this asset
+or obtain separate commercial permission before using it in a commercial service.
+No endorsement or affiliation with Scan-the-World or the temple is implied.

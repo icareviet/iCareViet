@@ -1,0 +1,10 @@
+import {SEATS,BASINS,COLUMN_X,COLUMN_Z,TREES,mapPoint,CHANNEL,BRIDGE} from './world-layout.js';
+export function templeMap(position){
+  const p=mapPoint(position.x,position.z);
+  const water=mapPoint(CHANNEL.left,CHANNEL.back),bridge=mapPoint(-BRIDGE.halfWidth,BRIDGE.back);
+  const seats=SEATS.map(s=>{const q=mapPoint(s.x,s.z);return `<circle cx="${q.x}" cy="${q.z}" r="2.2" class="plan-seat"/>`;}).join('');
+  const columns=COLUMN_X.flatMap(x=>COLUMN_Z.map(z=>{const q=mapPoint(x,z);return `<circle cx="${q.x}" cy="${q.z}" r="2.4" class="plan-column"/>`;})).join('');
+  const basins=BASINS.map(b=>{const q=mapPoint(b.x,b.z);return `<ellipse cx="${q.x}" cy="${q.z}" rx="${b.rx*3.25}" ry="${b.rz*3.25}" class="plan-water"/>`;}).join('');
+  const trees=TREES.map(t=>{const q=mapPoint(t.x,t.z);return `<circle cx="${q.x}" cy="${q.z}" r="5" class="plan-tree"/>`;}).join('');
+  return `<svg viewBox="0 0 280 360" role="img" aria-label="Sơ đồ chánh điện, cầu qua hồ nước, sân chùa, vườn cây và cổng ngoài"><rect x="28" y="14" width="224" height="323" rx="3" class="plan-boundary"/><rect x="67" y="17" width="146" height="127" rx="2" class="plan-building"/><path d="M140 143v187" class="plan-path"/><rect x="114" y="21" width="52" height="24" rx="2" class="plan-hall"/><text x="140" y="37" text-anchor="middle">Tòa sen</text>${seats}${columns}${basins}${trees}<rect x="${water.x}" y="${water.z}" width="${(CHANNEL.right-CHANNEL.left)*3.25}" height="${(CHANNEL.front-CHANNEL.back)*3.25}" class="plan-water"/><rect x="${bridge.x}" y="${bridge.z}" width="${BRIDGE.halfWidth*6.5}" height="${(BRIDGE.front-BRIDGE.back)*3.25}" class="plan-bridge"/><text x="161" y="178" class="plan-caption">Cầu</text><text x="140" y="139" text-anchor="middle" class="plan-caption">Chánh điện</text><text x="140" y="220" text-anchor="middle" class="plan-caption">Sân chùa</text><path d="M106 334h68" class="plan-gate"/><text x="140" y="352" text-anchor="middle" class="plan-caption">Cổng tam quan</text><circle cx="${p.x}" cy="${p.z}" r="4.6" class="plan-player"/></svg>`;
+}

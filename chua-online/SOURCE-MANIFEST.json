@@ -1,0 +1,327 @@
+{
+  "name": "chua-online",
+  "version": "0.1.0",
+  "generatedAt": "2026-11-03T14:10:18.986Z",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 80,
+      "sha256": "80d40acfc4d24fb88680857b15ac0958b4e0cad78b64b8cca130862b07b7f489"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 214,
+      "sha256": "d674db0218453389f7485c0466d1fd6865fd92a7bc619635dc8615675824a926"
+    },
+    {
+      "path": ".impeccable/config.json",
+      "bytes": 26,
+      "sha256": "e9b1179c839289e7f450760d8f3336f56de2ee02e8520f7236edd29495ca7ec4"
+    },
+    {
+      "path": ".impeccable/design.json",
+      "bytes": 43466,
+      "sha256": "9cd5f9e2701f0f8392dc46235e2c049807c3bdf66ab3a0016127f22740ec85fe"
+    },
+    {
+      "path": ".impeccable/gilded-lotus-prompt.txt",
+      "bytes": 968,
+      "sha256": "354595bc53c098d26920ad8acab9692838a68131a835702a0fad039b96fcff65"
+    },
+    {
+      "path": ".impeccable/surfaces/public-index-php.md",
+      "bytes": 3024,
+      "sha256": "57264240c76a252f261367cb20690cdaaa5dc465db6eacedce029fa0374014de"
+    },
+    {
+      "path": ".impeccable/temple-direction.md",
+      "bytes": 422,
+      "sha256": "7b515b69653f27afdc4260a0438be4ee32334fbe1ee5a2188603ca84cd584232"
+    },
+    {
+      "path": "DESIGN.md",
+      "bytes": 29423,
+      "sha256": "9f48dfd81676fa7dcdeda6e4878254fe917f0583657dbe65878ea535823174b0"
+    },
+    {
+      "path": "PACKAGING.md",
+      "bytes": 3328,
+      "sha256": "771d404998b03cec52ff1d7af8b5597c677639d995b062649dac0fc0a8bbde93"
+    },
+    {
+      "path": "PRODUCT.md",
+      "bytes": 3533,
+      "sha256": "6245ca09d456c164feddfac8387beea31ab68a01d1c72c4ebeab9eed6a74c07d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10996,
+      "sha256": "0a85b8786103b162dae11bc2983df121b7b3daa5b9d6ccba859c468f87066c6d"
+    },
+    {
+      "path": "app/bootstrap.php",
+      "bytes": 7353,
+      "sha256": "b7bb8571461a0e353b57172f54d91a4806e571eacfda785cc6dd8ab32cd6085f"
+    },
+    {
+      "path": "app/catalog.php",
+      "bytes": 2926,
+      "sha256": "2f32a53a9faa724e0a803010f2497d74b23529756365beb50d9eba8d23b95d83"
+    },
+    {
+      "path": "app/schema.sql",
+      "bytes": 3922,
+      "sha256": "71b6dc91ac60db4110897c633153902703e29f6be58a8d9d553b9128cfdb0462"
+    },
+    {
+      "path": "app/social.php",
+      "bytes": 4961,
+      "sha256": "f86bad951807f9248bf64d78255df6e87ade2e0b23267265225e595ddec81212"
+    },
+    {
+      "path": "app/world-layout.json",
+      "bytes": 1542,
+      "sha256": "9ed9f85a4f1aae6c0b0cef280fae316be2e5a0eb87bbe273900b3d38df25556e"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 18082,
+      "sha256": "6a097160e2e96b1aed2893c336f73b2544c2d13654c3f2d478e5b043147c7ce4"
+    },
+    {
+      "path": "package.json",
+      "bytes": 601,
+      "sha256": "14d6184dfb8651a4f427f42b4cae73bd4cff311a5a561043bbce9ba9513e38e1"
+    },
+    {
+      "path": "public/.htaccess",
+      "bytes": 182,
+      "sha256": "c7af96995615f22ddfa3286c9236649909344929a024e6abbda29af25dd552f0"
+    },
+    {
+      "path": "public/api.php",
+      "bytes": 19023,
+      "sha256": "5a5e98bd4b8141135461cd5984b7c12b817e6297cf977be0fd01ba9c758b9d0c"
+    },
+    {
+      "path": "public/assets/app.js",
+      "bytes": 813864,
+      "sha256": "0d38fef58029ca4cc72fea092d29be1232fe480a9c3abcf66ce4bda71fb14b4c"
+    },
+    {
+      "path": "public/assets/fonts/be-vietnam-pro-latin-400-normal.woff2",
+      "bytes": 21168,
+      "sha256": "03d1b589cff172e1a670b3573e731d3380bc326f80cf83b0d3504e3188e2e074"
+    },
+    {
+      "path": "public/assets/fonts/be-vietnam-pro-latin-600-normal.woff2",
+      "bytes": 22032,
+      "sha256": "9503dec2a7c532c8331e9600bcafea287a4fd208573b8668d85ab8d8de1863c7"
+    },
+    {
+      "path": "public/assets/fonts/be-vietnam-pro-vietnamese-400-normal.woff2",
+      "bytes": 11532,
+      "sha256": "dc085e2fba3414e5c5bf1e6172f921a9f81c5859946a4ed3d63c1e470d96a9e2"
+    },
+    {
+      "path": "public/assets/fonts/be-vietnam-pro-vietnamese-600-normal.woff2",
+      "bytes": 12176,
+      "sha256": "97658c6f9a384f29a3005c3d96e2a0d1c810192cf68979071c290f5a377a9f99"
+    },
+    {
+      "path": "public/assets/fonts/noto-serif-latin-500-normal.woff2",
+      "bytes": 15144,
+      "sha256": "34d49119e5aa079fdbf6e2b878161665cd682c37f211b64212f191d9c96a34c5"
+    },
+    {
+      "path": "public/assets/fonts/noto-serif-vietnamese-500-normal.woff2",
+      "bytes": 5840,
+      "sha256": "162fa66973210ccc97aef62f88f8a40fab9fe87a21da977055157c7f5445c0a7"
+    },
+    {
+      "path": "public/assets/licenses/be-vietnam-pro.txt",
+      "bytes": 6476,
+      "sha256": "0bd4db1cda123af9d91794b0f98324b7d7d81aef0fcaf78c433160153f2c6f25"
+    },
+    {
+      "path": "public/assets/licenses/kamakura-buddha.txt",
+      "bytes": 749,
+      "sha256": "5398670baa2095d1b06a569655c03e3e091b3d98190cf3353bc19c0e11c186e8"
+    },
+    {
+      "path": "public/assets/licenses/lucide.txt",
+      "bytes": 2004,
+      "sha256": "668dcc52803480e0a026b31140a4cae668772663cd764e5991d252eef03f98db"
+    },
+    {
+      "path": "public/assets/licenses/noto-serif.txt",
+      "bytes": 4519,
+      "sha256": "45d545469122348b916bfa4d362f691c3f7f3af7169fd46f920845cae97923df"
+    },
+    {
+      "path": "public/assets/licenses/three.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "public/assets/models/kamakura-buddha.glb",
+      "bytes": 8398960,
+      "sha256": "424f7b73f499ad392cd2524f910a5770765393598f24c7813b3ab081f9da9784"
+    },
+    {
+      "path": "public/assets/styles.css",
+      "bytes": 33990,
+      "sha256": "600b77aaccc58b909e10fdc970e5335f5b666d5eddd77407b8a802b307be27f9"
+    },
+    {
+      "path": "public/assets/textures/gilded-lotus.jpg",
+      "bytes": 467286,
+      "sha256": "820391774a4db730193c31b7a7ad47f815afb77fcd4483baa65fa5f0213c517e"
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 327,
+      "sha256": "9baf580ef190f64398ee62e485db5360c3331a7349a5d9a895ca76c28eee5f4f"
+    },
+    {
+      "path": "public/index.php",
+      "bytes": 9204,
+      "sha256": "a7048f263e242be8ee414fb52b2b817bc6c90600dfe5607f13cedb42b0185b17"
+    },
+    {
+      "path": "router.php",
+      "bytes": 484,
+      "sha256": "90d538cb2292f2bc2303620af18ab664d7403dc20bad7cd2065de074a5173961"
+    },
+    {
+      "path": "scripts/admin.php",
+      "bytes": 1679,
+      "sha256": "0f328d183573457d8a1b20666a3cd19cfa2c7177f1faf28137c3385f85a6741c"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "bytes": 1111,
+      "sha256": "4d80694170c5007bf48dab57d3a46d1cf67d2edf704c06a2eb2f9e2cf96068d6"
+    },
+    {
+      "path": "scripts/dev.mjs",
+      "bytes": 652,
+      "sha256": "765e7777690ff5eb336a9961554a4aa916d38220ba272374ebdcad120ff6715c"
+    },
+    {
+      "path": "scripts/package-source.mjs",
+      "bytes": 5600,
+      "sha256": "ab5d8bcf278fe30c491dab9c19ba1b0f9f3f696127c06d0d14077dce90086882"
+    },
+    {
+      "path": "scripts/prepare-statue.mjs",
+      "bytes": 875,
+      "sha256": "469788eac494c4c04ebce00470e30c83e804a8ef7f12c5d40fab186a06ce8ee4"
+    },
+    {
+      "path": "scripts/setup-php.ps1",
+      "bytes": 1170,
+      "sha256": "289d852f0862040e6fce8813d44a2f772fc4c8675cfe426c83358158d110fdbb"
+    },
+    {
+      "path": "src/app.js",
+      "bytes": 43131,
+      "sha256": "524b62e3b2ae7c506127a359321cb28d5827cee331729b1382e0fbf2c0c3f6c4"
+    },
+    {
+      "path": "src/bridge.js",
+      "bytes": 2129,
+      "sha256": "09d7d0fc55122c4a9e324c907c09f3ceacf444ffb9bca4bdab2bfdf092f6a2a5"
+    },
+    {
+      "path": "src/character-picking.js",
+      "bytes": 584,
+      "sha256": "9c55cedd60cf132e03b98f9c21834d4820cdb4396c04e25579ba7f32dc489203"
+    },
+    {
+      "path": "src/characters.js",
+      "bytes": 2271,
+      "sha256": "98b28303b63f24be93ae8c6292cbb65a2e8616fec393d5272e653485ad177f48"
+    },
+    {
+      "path": "src/controls.js",
+      "bytes": 2332,
+      "sha256": "4a2f310fa79cb1af88062f70c098d158d1441b072ccfd0fe59abefa908e713b9"
+    },
+    {
+      "path": "src/navigation.js",
+      "bytes": 5622,
+      "sha256": "93a2c77ab11cbe5d371a0e6bc818865f2c956bee1a8baddcc4c31855ed1da009"
+    },
+    {
+      "path": "src/outdoors.js",
+      "bytes": 9024,
+      "sha256": "d7606b008751dbeecf308c9473c648deadedc25b2b4930f2a91529ea9546f68c"
+    },
+    {
+      "path": "src/sanctuary.js",
+      "bytes": 19547,
+      "sha256": "8a8be07c69301d4bc1e3cc48633a6b678963fe8547029026c1bd642d0a36604e"
+    },
+    {
+      "path": "src/scene.js",
+      "bytes": 22849,
+      "sha256": "a54c5a27bf38a9e5072be9c8def67d38045be50e129704f48ff7d42a8d2c0824"
+    },
+    {
+      "path": "src/seating.js",
+      "bytes": 3891,
+      "sha256": "8bee6573861b84e6ba65ff80c071c4ffc766dc480865bfd25cd2089683dd939f"
+    },
+    {
+      "path": "src/social.js",
+      "bytes": 14824,
+      "sha256": "8613edf0c865ec785b1a03860e5c15fd9c28b71729f0c950b9699db92c7dffb2"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 33990,
+      "sha256": "600b77aaccc58b909e10fdc970e5335f5b666d5eddd77407b8a802b307be27f9"
+    },
+    {
+      "path": "src/temple-map.js",
+      "bytes": 2082,
+      "sha256": "44fdcf727c11dffe36c46d67e862c130cc8f62208de59a18469ab6aec7203c24"
+    },
+    {
+      "path": "src/world-layout.js",
+      "bytes": 927,
+      "sha256": "ac1065aa89bf464fd32e1fde358599f94983c6a500149a760c610c8947ccdaee"
+    },
+    {
+      "path": "storage/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "tests/api.test.mjs",
+      "bytes": 17436,
+      "sha256": "f0356015e9cb6e3bcbcb16fcd1029e9a2018b8ccc30f58cf1b689810377440c0"
+    },
+    {
+      "path": "tests/character-picking.test.mjs",
+      "bytes": 956,
+      "sha256": "1c681ec40899acfa0d8ea187b290f4129f6de7613de22b80025a38e9d4a15417"
+    },
+    {
+      "path": "tests/controls.test.mjs",
+      "bytes": 2303,
+      "sha256": "aa4d733533fc6f3e387610b031669d70d7116ef40de87726637060fec68ab3b5"
+    },
+    {
+      "path": "tests/navigation.test.mjs",
+      "bytes": 3944,
+      "sha256": "ed8cee3062ba13017f5299d65440589b60b66f2cc6fcb13440157be37c81f7c9"
+    },
+    {
+      "path": "tests/scene.test.mjs",
+      "bytes": 8551,
+      "sha256": "a5dcfbbf2fd6f284629d50ea5536611ca1870a8991ebaab4dcd65833a99c63d5"
+    }
+  ]
+}

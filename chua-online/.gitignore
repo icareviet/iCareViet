@@ -1,0 +1,12 @@
+/node_modules/
+/storage/*
+!/storage/.gitkeep
+/.runtime/
+/dist/
+/.env
+/.impeccable/review/
+/.impeccable/config.local.json
+/.impeccable/tmp/
+*.zip
+!/public/assets/licenses/*.txt
+!/.impeccable/gilded-lotus-prompt.txt

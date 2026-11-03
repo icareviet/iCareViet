@@ -1,0 +1,865 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-03T06:49:25.145841Z",
+  "title": "Design System: Chùa Online",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Warm Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0063 56.19)",
+          "oklch(25% 0.0126 56.19)",
+          "oklch(35% 0.0202 56.19)",
+          "oklch(45% 0.0252 56.19)",
+          "oklch(58% 0.0252 56.19)",
+          "oklch(72% 0.0214 56.19)",
+          "oklch(85% 0.0139 56.19)",
+          "oklch(95% 0.0050 56.19)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Earth",
+        "tonalRamp": [
+          "oklch(15% 0.0094 63.80)",
+          "oklch(25% 0.0189 63.80)",
+          "oklch(35% 0.0302 63.80)",
+          "oklch(45% 0.0377 63.80)",
+          "oklch(58% 0.0377 63.80)",
+          "oklch(72% 0.0321 63.80)",
+          "oklch(85% 0.0207 63.80)",
+          "oklch(95% 0.0075 63.80)"
+        ]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Reading Ivory",
+        "tonalRamp": [
+          "oklch(15% 0.0057 84.59)",
+          "oklch(25% 0.0114 84.59)",
+          "oklch(35% 0.0183 84.59)",
+          "oklch(45% 0.0229 84.59)",
+          "oklch(58% 0.0229 84.59)",
+          "oklch(72% 0.0194 84.59)",
+          "oklch(85% 0.0126 84.59)",
+          "oklch(95% 0.0046 84.59)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Field Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0036 84.58)",
+          "oklch(25% 0.0071 84.58)",
+          "oklch(35% 0.0114 84.58)",
+          "oklch(45% 0.0142 84.58)",
+          "oklch(58% 0.0142 84.58)",
+          "oklch(72% 0.0121 84.58)",
+          "oklch(85% 0.0078 84.58)",
+          "oklch(95% 0.0028 84.58)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Paper Seam",
+        "tonalRamp": [
+          "oklch(15% 0.0095 79.08)",
+          "oklch(25% 0.0190 79.08)",
+          "oklch(35% 0.0304 79.08)",
+          "oklch(45% 0.0380 79.08)",
+          "oklch(58% 0.0380 79.08)",
+          "oklch(72% 0.0323 79.08)",
+          "oklch(85% 0.0209 79.08)",
+          "oklch(95% 0.0076 79.08)"
+        ]
+      },
+      "primary": {
+        "role": "primary",
+        "displayName": "Lacquer Action",
+        "tonalRamp": [
+          "oklch(15% 0.0238 36.59)",
+          "oklch(25% 0.0475 36.59)",
+          "oklch(35% 0.0761 36.59)",
+          "oklch(45% 0.0951 36.59)",
+          "oklch(58% 0.0951 36.59)",
+          "oklch(72% 0.0808 36.59)",
+          "oklch(85% 0.0523 36.59)",
+          "oklch(95% 0.0190 36.59)"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Lacquer Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0270 38.31)",
+          "oklch(25% 0.0541 38.31)",
+          "oklch(35% 0.0865 38.31)",
+          "oklch(45% 0.1082 38.31)",
+          "oklch(58% 0.1082 38.31)",
+          "oklch(72% 0.0919 38.31)",
+          "oklch(85% 0.0595 38.31)",
+          "oklch(95% 0.0216 38.31)"
+        ]
+      },
+      "gold": {
+        "role": "secondary",
+        "displayName": "Antique Gold",
+        "tonalRamp": [
+          "oklch(15% 0.0250 86.27)",
+          "oklch(25% 0.0501 86.27)",
+          "oklch(35% 0.0801 86.27)",
+          "oklch(45% 0.1001 86.27)",
+          "oklch(58% 0.1001 86.27)",
+          "oklch(72% 0.0851 86.27)",
+          "oklch(85% 0.0551 86.27)",
+          "oklch(95% 0.0200 86.27)"
+        ]
+      },
+      "night": {
+        "role": "neutral",
+        "displayName": "Night Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0076 37.15)",
+          "oklch(25% 0.0151 37.15)",
+          "oklch(35% 0.0242 37.15)",
+          "oklch(45% 0.0303 37.15)",
+          "oklch(58% 0.0303 37.15)",
+          "oklch(72% 0.0257 37.15)",
+          "oklch(85% 0.0166 37.15)",
+          "oklch(95% 0.0061 37.15)"
+        ]
+      },
+      "hud": {
+        "role": "neutral",
+        "displayName": "Lacquer HUD",
+        "tonalRamp": [
+          "oklch(15% 0.0094 33.68)",
+          "oklch(25% 0.0188 33.68)",
+          "oklch(35% 0.0301 33.68)",
+          "oklch(45% 0.0376 33.68)",
+          "oklch(58% 0.0376 33.68)",
+          "oklch(72% 0.0319 33.68)",
+          "oklch(85% 0.0207 33.68)",
+          "oklch(95% 0.0075 33.68)"
+        ]
+      },
+      "text-on-dark": {
+        "role": "neutral",
+        "displayName": "Cream on Dark",
+        "tonalRamp": [
+          "oklch(15% 0.0053 85.94)",
+          "oklch(25% 0.0107 85.94)",
+          "oklch(35% 0.0171 85.94)",
+          "oklch(45% 0.0213 85.94)",
+          "oklch(58% 0.0213 85.94)",
+          "oklch(72% 0.0181 85.94)",
+          "oklch(85% 0.0117 85.94)",
+          "oklch(95% 0.0043 85.94)"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Clay Error",
+        "tonalRamp": [
+          "oklch(15% 0.0350 27.45)",
+          "oklch(25% 0.0699 27.45)",
+          "oklch(35% 0.1119 27.45)",
+          "oklch(45% 0.1398 27.45)",
+          "oklch(58% 0.1398 27.45)",
+          "oklch(72% 0.1188 27.45)",
+          "oklch(85% 0.0769 27.45)",
+          "oklch(95% 0.0280 27.45)"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus Brass",
+        "tonalRamp": [
+          "oklch(15% 0.0287 80.04)",
+          "oklch(25% 0.0575 80.04)",
+          "oklch(35% 0.0920 80.04)",
+          "oklch(45% 0.1150 80.04)",
+          "oklch(58% 0.1150 80.04)",
+          "oklch(72% 0.0977 80.04)",
+          "oklch(85% 0.0632 80.04)",
+          "oklch(95% 0.0230 80.04)"
+        ]
+      },
+      "field-stroke": {
+        "role": "neutral",
+        "displayName": "Field Stroke",
+        "tonalRamp": [
+          "oklch(15% 0.0060 84.59)",
+          "oklch(25% 0.0121 84.59)",
+          "oklch(35% 0.0193 84.59)",
+          "oklch(45% 0.0241 84.59)",
+          "oklch(58% 0.0241 84.59)",
+          "oklch(72% 0.0205 84.59)",
+          "oklch(85% 0.0133 84.59)",
+          "oklch(95% 0.0048 84.59)"
+        ]
+      },
+      "primary-text": {
+        "role": "neutral",
+        "displayName": "Primary Text",
+        "tonalRamp": [
+          "oklch(15% 0.0055 89.79)",
+          "oklch(25% 0.0110 89.79)",
+          "oklch(35% 0.0176 89.79)",
+          "oklch(45% 0.0220 89.79)",
+          "oklch(58% 0.0220 89.79)",
+          "oklch(72% 0.0187 89.79)",
+          "oklch(85% 0.0121 89.79)",
+          "oklch(95% 0.0044 89.79)"
+        ]
+      },
+      "secondary": {
+        "role": "neutral",
+        "displayName": "Secondary",
+        "tonalRamp": [
+          "oklch(15% 0.0046 86.15)",
+          "oklch(25% 0.0093 86.15)",
+          "oklch(35% 0.0149 86.15)",
+          "oklch(45% 0.0186 86.15)",
+          "oklch(58% 0.0186 86.15)",
+          "oklch(72% 0.0158 86.15)",
+          "oklch(85% 0.0102 86.15)",
+          "oklch(95% 0.0037 86.15)"
+        ]
+      },
+      "secondary-hover": {
+        "role": "neutral",
+        "displayName": "Secondary Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0066 84.59)",
+          "oklch(25% 0.0131 84.59)",
+          "oklch(35% 0.0210 84.59)",
+          "oklch(45% 0.0263 84.59)",
+          "oklch(58% 0.0263 84.59)",
+          "oklch(72% 0.0223 84.59)",
+          "oklch(85% 0.0144 84.59)",
+          "oklch(95% 0.0053 84.59)"
+        ]
+      },
+      "nav-text": {
+        "role": "neutral",
+        "displayName": "Nav Text",
+        "tonalRamp": [
+          "oklch(15% 0.0043 110.30)",
+          "oklch(25% 0.0087 110.30)",
+          "oklch(35% 0.0139 110.30)",
+          "oklch(45% 0.0174 110.30)",
+          "oklch(58% 0.0174 110.30)",
+          "oklch(72% 0.0148 110.30)",
+          "oklch(85% 0.0096 110.30)",
+          "oklch(95% 0.0035 110.30)"
+        ]
+      },
+      "nav-active": {
+        "role": "secondary",
+        "displayName": "Selected Navigation Gold",
+        "tonalRamp": [
+          "oklch(15% 0.0183 82.30)",
+          "oklch(25% 0.0366 82.30)",
+          "oklch(35% 0.0585 82.30)",
+          "oklch(45% 0.0731 82.30)",
+          "oklch(58% 0.0731 82.30)",
+          "oklch(72% 0.0622 82.30)",
+          "oklch(85% 0.0402 82.30)",
+          "oklch(95% 0.0146 82.30)"
+        ]
+      },
+      "nav-wash": {
+        "role": "neutral",
+        "displayName": "Nav Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0150 96.98)",
+          "oklch(25% 0.0301 96.98)",
+          "oklch(35% 0.0482 96.98)",
+          "oklch(45% 0.0602 96.98)",
+          "oklch(58% 0.0602 96.98)",
+          "oklch(72% 0.0512 96.98)",
+          "oklch(85% 0.0331 96.98)",
+          "oklch(95% 0.0120 96.98)"
+        ]
+      },
+      "dock-icon": {
+        "role": "secondary",
+        "displayName": "Dock Icon",
+        "tonalRamp": [
+          "oklch(15% 0.0167 85.76)",
+          "oklch(25% 0.0333 85.76)",
+          "oklch(35% 0.0533 85.76)",
+          "oklch(45% 0.0666 85.76)",
+          "oklch(58% 0.0666 85.76)",
+          "oklch(72% 0.0566 85.76)",
+          "oklch(85% 0.0366 85.76)",
+          "oklch(95% 0.0133 85.76)"
+        ]
+      },
+      "dock-wash": {
+        "role": "neutral",
+        "displayName": "Dock Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0140 86.11)",
+          "oklch(25% 0.0280 86.11)",
+          "oklch(35% 0.0448 86.11)",
+          "oklch(45% 0.0560 86.11)",
+          "oklch(58% 0.0560 86.11)",
+          "oklch(72% 0.0476 86.11)",
+          "oklch(85% 0.0308 86.11)",
+          "oklch(95% 0.0112 86.11)"
+        ]
+      },
+      "choice": {
+        "role": "neutral",
+        "displayName": "Choice",
+        "tonalRamp": [
+          "oklch(15% 0.0053 88.73)",
+          "oklch(25% 0.0106 88.73)",
+          "oklch(35% 0.0169 88.73)",
+          "oklch(45% 0.0211 88.73)",
+          "oklch(58% 0.0211 88.73)",
+          "oklch(72% 0.0180 88.73)",
+          "oklch(85% 0.0116 88.73)",
+          "oklch(95% 0.0042 88.73)"
+        ]
+      },
+      "bead-fill": {
+        "role": "secondary",
+        "displayName": "Bead Fill",
+        "tonalRamp": [
+          "oklch(15% 0.0121 85.78)",
+          "oklch(25% 0.0242 85.78)",
+          "oklch(35% 0.0387 85.78)",
+          "oklch(45% 0.0483 85.78)",
+          "oklch(58% 0.0483 85.78)",
+          "oklch(72% 0.0411 85.78)",
+          "oklch(85% 0.0266 85.78)",
+          "oklch(95% 0.0097 85.78)"
+        ]
+      },
+      "bead-text": {
+        "role": "secondary",
+        "displayName": "Bead Text",
+        "tonalRamp": [
+          "oklch(15% 0.0150 71.27)",
+          "oklch(25% 0.0299 71.27)",
+          "oklch(35% 0.0479 71.27)",
+          "oklch(45% 0.0599 71.27)",
+          "oklch(58% 0.0599 71.27)",
+          "oklch(72% 0.0509 71.27)",
+          "oklch(85% 0.0329 71.27)",
+          "oklch(95% 0.0120 71.27)"
+        ]
+      },
+      "bead-hover": {
+        "role": "secondary",
+        "displayName": "Bead Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0155 87.38)",
+          "oklch(25% 0.0309 87.38)",
+          "oklch(35% 0.0495 87.38)",
+          "oklch(45% 0.0619 87.38)",
+          "oklch(58% 0.0619 87.38)",
+          "oklch(72% 0.0526 87.38)",
+          "oklch(85% 0.0340 87.38)",
+          "oklch(95% 0.0124 87.38)"
+        ]
+      },
+      "temple-lacquer": {
+        "role": "neutral",
+        "displayName": "Temple Lacquer",
+        "tonalRamp": [
+          "oklch(15% 0.0233 30.47)",
+          "oklch(25% 0.0466 30.47)",
+          "oklch(35% 0.0746 30.47)",
+          "oklch(45% 0.0932 30.47)",
+          "oklch(58% 0.0932 30.47)",
+          "oklch(72% 0.0792 30.47)",
+          "oklch(85% 0.0513 30.47)",
+          "oklch(95% 0.0186 30.47)"
+        ]
+      },
+      "temple-wood": {
+        "role": "neutral",
+        "displayName": "Temple Wood",
+        "tonalRamp": [
+          "oklch(15% 0.0127 31.20)",
+          "oklch(25% 0.0254 31.20)",
+          "oklch(35% 0.0406 31.20)",
+          "oklch(45% 0.0508 31.20)",
+          "oklch(58% 0.0508 31.20)",
+          "oklch(72% 0.0431 31.20)",
+          "oklch(85% 0.0279 31.20)",
+          "oklch(95% 0.0102 31.20)"
+        ]
+      },
+      "temple-black": {
+        "role": "neutral",
+        "displayName": "Temple Black",
+        "tonalRamp": [
+          "oklch(15% 0.0055 49.54)",
+          "oklch(25% 0.0110 49.54)",
+          "oklch(35% 0.0176 49.54)",
+          "oklch(45% 0.0220 49.54)",
+          "oklch(58% 0.0220 49.54)",
+          "oklch(72% 0.0187 49.54)",
+          "oklch(85% 0.0121 49.54)",
+          "oklch(95% 0.0044 49.54)"
+        ]
+      },
+      "temple-gold": {
+        "role": "secondary",
+        "displayName": "Temple Gold",
+        "tonalRamp": [
+          "oklch(15% 0.0307 78.79)",
+          "oklch(25% 0.0614 78.79)",
+          "oklch(35% 0.0982 78.79)",
+          "oklch(45% 0.1228 78.79)",
+          "oklch(58% 0.1228 78.79)",
+          "oklch(72% 0.1044 78.79)",
+          "oklch(85% 0.0675 78.79)",
+          "oklch(95% 0.0246 78.79)"
+        ]
+      },
+      "temple-gold-light": {
+        "role": "secondary",
+        "displayName": "Temple Gold Light",
+        "tonalRamp": [
+          "oklch(15% 0.0302 87.71)",
+          "oklch(25% 0.0605 87.71)",
+          "oklch(35% 0.0968 87.71)",
+          "oklch(45% 0.1210 87.71)",
+          "oklch(58% 0.1210 87.71)",
+          "oklch(72% 0.1028 87.71)",
+          "oklch(85% 0.0665 87.71)",
+          "oklch(95% 0.0242 87.71)"
+        ]
+      },
+      "temple-gold-dark": {
+        "role": "secondary",
+        "displayName": "Temple Gold Dark",
+        "tonalRamp": [
+          "oklch(15% 0.0212 69.18)",
+          "oklch(25% 0.0424 69.18)",
+          "oklch(35% 0.0678 69.18)",
+          "oklch(45% 0.0847 69.18)",
+          "oklch(58% 0.0847 69.18)",
+          "oklch(72% 0.0720 69.18)",
+          "oklch(85% 0.0466 69.18)",
+          "oklch(95% 0.0169 69.18)"
+        ]
+      },
+      "temple-stone": {
+        "role": "neutral",
+        "displayName": "Temple Stone",
+        "tonalRamp": [
+          "oklch(15% 0.0061 61.58)",
+          "oklch(25% 0.0122 61.58)",
+          "oklch(35% 0.0195 61.58)",
+          "oklch(45% 0.0244 61.58)",
+          "oklch(58% 0.0244 61.58)",
+          "oklch(72% 0.0208 61.58)",
+          "oklch(85% 0.0134 61.58)",
+          "oklch(95% 0.0049 61.58)"
+        ]
+      },
+      "temple-cushion": {
+        "role": "neutral",
+        "displayName": "Temple Cushion",
+        "tonalRamp": [
+          "oklch(15% 0.0322 62.71)",
+          "oklch(25% 0.0645 62.71)",
+          "oklch(35% 0.1032 62.71)",
+          "oklch(45% 0.1290 62.71)",
+          "oklch(58% 0.1290 62.71)",
+          "oklch(72% 0.1096 62.71)",
+          "oklch(85% 0.0709 62.71)",
+          "oklch(95% 0.0258 62.71)"
+        ]
+      },
+      "temple-cloth": {
+        "role": "neutral",
+        "displayName": "Temple Cloth",
+        "tonalRamp": [
+          "oklch(15% 0.0355 72.99)",
+          "oklch(25% 0.0709 72.99)",
+          "oklch(35% 0.1135 72.99)",
+          "oklch(45% 0.1418 72.99)",
+          "oklch(58% 0.1418 72.99)",
+          "oklch(72% 0.1206 72.99)",
+          "oklch(85% 0.0780 72.99)",
+          "oklch(95% 0.0284 72.99)"
+        ]
+      },
+      "temple-leaf": {
+        "role": "neutral",
+        "displayName": "Temple Leaf",
+        "tonalRamp": [
+          "oklch(15% 0.0127 139.67)",
+          "oklch(25% 0.0254 139.67)",
+          "oklch(35% 0.0406 139.67)",
+          "oklch(45% 0.0507 139.67)",
+          "oklch(58% 0.0507 139.67)",
+          "oklch(72% 0.0431 139.67)",
+          "oklch(85% 0.0279 139.67)",
+          "oklch(95% 0.0101 139.67)"
+        ]
+      },
+      "temple-water": {
+        "role": "neutral",
+        "displayName": "Temple Water",
+        "tonalRamp": [
+          "oklch(15% 0.0082 177.28)",
+          "oklch(25% 0.0165 177.28)",
+          "oklch(35% 0.0263 177.28)",
+          "oklch(45% 0.0329 177.28)",
+          "oklch(58% 0.0329 177.28)",
+          "oklch(72% 0.0280 177.28)",
+          "oklch(85% 0.0181 177.28)",
+          "oklch(95% 0.0066 177.28)"
+        ]
+      },
+      "temple-lantern": {
+        "role": "neutral",
+        "displayName": "Temple Lantern",
+        "tonalRamp": [
+          "oklch(15% 0.0309 80.47)",
+          "oklch(25% 0.0617 80.47)",
+          "oklch(35% 0.0987 80.47)",
+          "oklch(45% 0.1234 80.47)",
+          "oklch(58% 0.1234 80.47)",
+          "oklch(72% 0.1049 80.47)",
+          "oklch(85% 0.0679 80.47)",
+          "oklch(95% 0.0247 80.47)"
+        ]
+      },
+      "temple-lantern-emissive": {
+        "role": "neutral",
+        "displayName": "Temple Lantern Emissive",
+        "tonalRamp": [
+          "oklch(15% 0.0415 62.89)",
+          "oklch(25% 0.0830 62.89)",
+          "oklch(35% 0.1328 62.89)",
+          "oklch(45% 0.1660 62.89)",
+          "oklch(58% 0.1660 62.89)",
+          "oklch(72% 0.1411 62.89)",
+          "oklch(85% 0.0913 62.89)",
+          "oklch(95% 0.0332 62.89)"
+        ]
+      },
+      "temple-relief": {
+        "role": "neutral",
+        "displayName": "Temple Relief",
+        "tonalRamp": [
+          "oklch(15% 0.0227 72.97)",
+          "oklch(25% 0.0455 72.97)",
+          "oklch(35% 0.0728 72.97)",
+          "oklch(45% 0.0910 72.97)",
+          "oklch(58% 0.0910 72.97)",
+          "oklch(72% 0.0773 72.97)",
+          "oklch(85% 0.0500 72.97)",
+          "oklch(95% 0.0182 72.97)"
+        ]
+      },
+      "temple-floor": {
+        "role": "neutral",
+        "displayName": "Temple Floor",
+        "tonalRamp": [
+          "oklch(15% 0.0204 58.74)",
+          "oklch(25% 0.0407 58.74)",
+          "oklch(35% 0.0652 58.74)",
+          "oklch(45% 0.0814 58.74)",
+          "oklch(58% 0.0814 58.74)",
+          "oklch(72% 0.0692 58.74)",
+          "oklch(85% 0.0448 58.74)",
+          "oklch(95% 0.0163 58.74)"
+        ]
+      },
+      "temple-sky": {
+        "role": "neutral",
+        "displayName": "Temple Sky",
+        "tonalRamp": [
+          "oklch(15% 0.0065 44.02)",
+          "oklch(25% 0.0130 44.02)",
+          "oklch(35% 0.0209 44.02)",
+          "oklch(45% 0.0261 44.02)",
+          "oklch(58% 0.0261 44.02)",
+          "oklch(72% 0.0222 44.02)",
+          "oklch(85% 0.0144 44.02)",
+          "oklch(95% 0.0052 44.02)"
+        ]
+      },
+      "temple-fog": {
+        "role": "neutral",
+        "displayName": "Temple Fog",
+        "tonalRamp": [
+          "oklch(15% 0.0109 46.62)",
+          "oklch(25% 0.0218 46.62)",
+          "oklch(35% 0.0349 46.62)",
+          "oklch(45% 0.0437 46.62)",
+          "oklch(58% 0.0437 46.62)",
+          "oklch(72% 0.0371 46.62)",
+          "oklch(85% 0.0240 46.62)",
+          "oklch(95% 0.0087 46.62)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Welcome heading; responsive sizes remain in the stylesheet."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Panel headings and serif room identity."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Panel subsection headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Sustained panel explanations on ivory."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels and primary/secondary actions."
+      },
+      "prayer": {
+        "displayName": "Prayer",
+        "purpose": "Sutra reading."
+      },
+      "counter": {
+        "displayName": "Counter",
+        "purpose": "Tabular bead count; source inherits regular weight despite medium-only local serif assets."
+      }
+    },
+    "shadows": [
+      {
+        "name": "reading-surface",
+        "value": "0 16px 48px #1b080854",
+        "purpose": "Welcome, panel, toast, and mobile drawer."
+      },
+      {
+        "name": "practice-dock",
+        "value": "0 8px 20px #1b080830",
+        "purpose": "Soft separation under the persistent dock."
+      },
+      {
+        "name": "joystick-thumb",
+        "value": "0 4px 12px #1b080830",
+        "purpose": "Thumb depth within the touch control."
+      },
+      {
+        "name": "camera-selector",
+        "value": "0 5px 15px #16090425",
+        "purpose": "Compact dark camera selector."
+      },
+      {
+        "name": "bead-action",
+        "value": "0 8px 18px #705b2520",
+        "purpose": "Warm ambient depth under the circular practice action."
+      },
+      {
+        "name": "identity-text",
+        "value": "0 2px 8px #1f0c06",
+        "purpose": "Room identity legibility over scene geometry."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-state",
+        "value": "background-color .18s, color .18s",
+        "purpose": "Button fill and text transitions, using CSS default ease."
+      },
+      {
+        "name": "breathing",
+        "value": "8s ease-in-out infinite; scale(.85) → scale(1.1) → scale(.85)",
+        "purpose": "Meditation breathing disc. Text alternates inhale/exhale in four-second phases."
+      },
+      {
+        "name": "bead-press",
+        "value": "transform: scale(.98)",
+        "purpose": "Immediate pressed feedback on the circular practice action."
+      },
+      {
+        "name": "saved-lantern-rise",
+        "value": "4s; eased progress = 1 - (1 - t)^3; y = .08 → 2",
+        "purpose": "Starts after a saved wish returns its stable server ID. Reduced motion places it directly at the final height."
+      },
+      {
+        "name": "lantern-bob",
+        "value": "sin(elapsed * .8 + x) * .04",
+        "purpose": "Subtle native scene bobbing; disabled by reduced motion."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce OR saved reducedMotion; CSS animation/transition: none",
+        "purpose": "CSS and lantern motion honor either preference; intentional navigation remains usable. The sanctuary has no ambient floating particles."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "min-width: 1450px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "max-width: 1200px"
+      },
+      {
+        "name": "compact-identity",
+        "value": "max-width: 1100px"
+      },
+      {
+        "name": "short-desktop",
+        "value": "max-height: 760px and min-width: 801px"
+      },
+      {
+        "name": "mobile",
+        "value": "max-width: 800px"
+      },
+      {
+        "name": "stacked-map",
+        "value": "max-width: 600px"
+      },
+      {
+        "name": "large-touch-device",
+        "value": "pointer: coarse and min-width: 801px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main form and practice actions on cream reading surfaces.",
+      "html": "<button class=\"ds-primary\">Vào chùa <svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></button>",
+      "css": ".ds-primary{font-family:BeVietnam,'Segoe UI',sans-serif;min-height:45px;display:inline-flex;justify-content:center;align-items:center;gap:10px;padding:11px 17px;border:0;border-radius:7px;font-weight:600;font-size:12px;cursor:pointer;transition:background-color .18s,color .18s;background:var(--primary,#743422);color:#fff9e9}.ds-primary svg{width:16px;height:16px}.ds-primary:hover{background:var(--primary-hover,#90452d)}.ds-primary:focus-visible{outline:3px solid #c79945;outline-offset:4px;}.ds-primary:disabled{cursor:wait;opacity:.5}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Supporting and trailing list actions on cream.",
+      "html": "<button class=\"ds-secondary\">Thỉnh vật phẩm</button>",
+      "css": ".ds-secondary{font-family:BeVietnam,'Segoe UI',sans-serif;min-height:45px;display:inline-flex;justify-content:center;align-items:center;gap:10px;padding:11px 17px;border:0;border-radius:7px;font-weight:600;font-size:12px;cursor:pointer;transition:background-color .18s,color .18s;background:#e8e2d5;color:var(--ink,#34271e)}.ds-secondary:hover{background:#dcd3c1}.ds-secondary:focus-visible{outline:3px solid #c79945;outline-offset:4px;}.ds-secondary:disabled{cursor:wait;opacity:.5}@media(prefers-reduced-motion:reduce){.ds-secondary{transition:none}}"
+    },
+    {
+      "name": "Paper Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Visible label, warm field fill, and a clear stroke for names and account details.",
+      "html": "<label class=\"ds-field\">Pháp danh của bạn<input name=\"name\" value=\"An Nhiên\" autocomplete=\"nickname\"></label>",
+      "css": ".ds-field{font-family:BeVietnam,'Segoe UI',sans-serif;display:flex;flex-direction:column;gap:9px;font-size:12px;font-weight:600;color:var(--ink,#34271e)}.ds-field input{font-family:BeVietnam,'Segoe UI',sans-serif;box-sizing:border-box;min-height:44px;width:100%;background:var(--paper,#fffaf0);color:var(--ink,#34271e);border:1px solid #b7af9f;border-radius:6px;padding:10px 12px;font-size:14px;font-weight:400;caret-color:var(--primary,#743422)}.ds-field input::placeholder{color:#746a5b;opacity:1}.ds-field input:focus-visible{outline:3px solid #c79945;outline-offset:4px;}"
+    },
+    {
+      "name": "Temple Navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Labeled desktop rail; the same content becomes the single phone drawer.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Danh mục trong chùa\"><button class=\"ds-current\"><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 10c4 0 6-2 9-7 3 5 5 7 9 7H3Z\"/><path d=\"M5 10v11m14-11v11M3 21h18M9 21v-7h6v7M10 6h4\"/></svg><span>Chánh điện</span></button><button><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z\"/><path d=\"M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12\"/></svg><span>Thiền phái</span></button></nav>",
+      "css": ".ds-nav{width:142px;display:flex;flex-direction:column;padding:9px;background:var(--hud,#2b1510ed);border-radius:var(--radius,12px)}.ds-nav button{font-family:BeVietnam,'Segoe UI',sans-serif;display:flex;align-items:center;gap:11px;min-height:43px;background:transparent;color:#e4e5d8;text-align:left;font-size:11px;padding:9px 10px;border:0;border-radius:7px;cursor:pointer;transition:background-color .18s,color .18s}.ds-nav svg{width:18px;height:18px;flex-shrink:0}.ds-nav button:hover,.ds-nav .ds-current{background:#e0d6a91c;color:#efd3a0}.ds-nav button:focus-visible{outline:3px solid #c79945;outline-offset:4px;}@media(max-width:800px){.ds-nav{width:164px;max-height:calc(100dvh - 185px);overflow-y:auto;box-shadow:var(--shadow,0 16px 48px #1b080854)}.ds-nav button{font-size:12px;min-height:44px}}@media(prefers-reduced-motion:reduce){.ds-nav button{transition:none}}"
+    },
+    {
+      "name": "Practice Dock",
+      "kind": "nav",
+      "refersTo": "practice-dock",
+      "description": "Seven icon-above-label practice actions; the phone layout shares space and wraps labels with 44px minimum action widths.",
+      "html": "<nav class=\"ds-dock\" aria-label=\"Hoạt động tu tập\"><button><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M11 14h2a2 2 0 0 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 16\"/><path d=\"m14.45 13.39 5.05-4.694C20.196 8 21 6.85 21 5.75a2.75 2.75 0 0 0-4.797-1.837.276.276 0 0 1-.406 0A2.75 2.75 0 0 0 11 5.75c0 1.2.802 2.248 1.5 2.946L16 11.95\"/><path d=\"m2 15 6 6\"/><path d=\"m7 20 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a1 1 0 0 0-2.75-2.91\"/></svg><span>Lạy Phật</span></button><button class=\"ds-active\"><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"1\"/></svg><span>Tràng hạt</span></button><button><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 7v14\"/><path d=\"M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z\"/></svg><span>Tụng kinh</span></button><span class=\"ds-dock-seam\"></span><button><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z\"/><path d=\"M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12\"/></svg><span>Thiền định</span></button><button><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 5a3 3 0 1 1 3 3m-3-3a3 3 0 1 0-3 3m3-3v1M9 8a3 3 0 1 0 3 3M9 8h1m5 0a3 3 0 1 1-3 3m3-3h-1m-2 3v-1\"/><circle cx=\"12\" cy=\"8\" r=\"2\"/><path d=\"M12 10v12\"/><path d=\"M12 22c4.2 0 7-1.667 7-5-4.2 0-7 1.667-7 5Z\"/><path d=\"M12 22c-4.2 0-7-1.667-7-5 4.2 0 7 1.667 7 5Z\"/></svg><span>Dâng lễ</span></button><button><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10.268 21a2 2 0 0 0 3.464 0\"/><path d=\"M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326\"/></svg><span>Thỉnh chuông</span></button><button><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 12v6\"/><path d=\"M4.077 10.615A1 1 0 0 0 5 12h14a1 1 0 0 0 .923-1.385l-3.077-7.384A2 2 0 0 0 15 2H9a2 2 0 0 0-1.846 1.23Z\"/><path d=\"M8 20a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1z\"/></svg><span>Hoa đăng</span></button></nav>",
+      "css": ".ds-dock{display:flex;align-items:center;width:max-content;max-width:100%;padding:9px 12px;border-radius:12px;background:var(--hud,#2b1510ed);color:var(--text-on-dark,#f1eadb);box-shadow:0 8px 20px #1b080830}.ds-dock button{font-family:BeVietnam,'Segoe UI',sans-serif;height:63px;width:76px;padding:7px 6px;display:flex;align-items:center;flex-direction:column;justify-content:center;gap:8px;background:transparent;color:inherit;border:0;border-radius:8px;white-space:nowrap;cursor:pointer;transition:background-color .18s,color .18s}.ds-dock button:hover,.ds-dock .ds-active{background:#d2c09920;color:var(--gold,#e8c77d)}.ds-dock svg{width:23px;height:23px;color:#ddc798;flex-shrink:0}.ds-dock span{font-size:10px}.ds-dock-seam{width:1px;height:35px;background:#c3ccba2e;margin:0 5px}.ds-dock button:focus-visible{outline:3px solid #c79945;outline-offset:4px;}@media(max-width:1200px){.ds-dock button{width:69px}}@media(max-width:800px){.ds-dock{padding:6px;overflow-x:auto;scrollbar-width:none}.ds-dock button{width:59px;min-width:59px;gap:7px}.ds-dock svg{width:21px;height:21px}.ds-dock span{font-size:9px}.ds-dock-seam{margin:0 3px;min-width:1px;height:30px}}@media(prefers-reduced-motion:reduce){.ds-dock button{transition:none}}@media(max-width:800px){.ds-dock{width:calc(100% - 24px)}.ds-dock button{flex:1;width:auto;min-width:44px;height:68px;gap:5px}.ds-dock button span{white-space:normal;text-align:center;line-height:1.4;max-width:48px}}"
+    },
+    {
+      "name": "Reading Panel",
+      "kind": "card",
+      "refersTo": "reading-panel",
+      "description": "An opaque reading surface with a fixed header and independently scrollable task content; it is an aside, not a modal.",
+      "html": "<aside class=\"ds-panel\" aria-labelledby=\"ds-title\"><header class=\"ds-panel-head\"><h2 id=\"ds-title\">Lần tràng hạt</h2><button aria-label=\"Đóng bảng\"><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 6 6 18\"/><path d=\"m6 6 12 12\"/></svg></button></header><div class=\"ds-panel-content\"><p>Mỗi hạt là một câu niệm. Chậm rãi, an trú trong hiện tại.</p></div></aside>",
+      "css": ".ds-panel{font-family:BeVietnam,'Segoe UI',sans-serif;width:385px;max-width:100%;border-radius:14px;background:var(--cream,#f7efdf);color:var(--ink,#34271e);box-shadow:var(--shadow,0 16px 48px #1b080854);display:flex;flex-direction:column;overflow:hidden}.ds-panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:22px 22px 17px;border-bottom:1px solid var(--line,#dfcfb6)}.ds-panel h2{font-family:NotoSerif,Georgia,serif;margin:0;font-size:23px;line-height:1.4;font-weight:500;letter-spacing:-.025em}.ds-panel-head button{width:40px;height:40px;display:grid;place-items:center;border:0;border-radius:6px;background:transparent;color:inherit;cursor:pointer;transition:background-color .18s,color .18s}.ds-panel-head button:hover{background:#dbd5c4}.ds-panel-head button:focus-visible{outline:3px solid #c79945;outline-offset:4px;}.ds-panel svg{width:20px;height:20px}.ds-panel-content{padding:22px;overflow:auto;scrollbar-width:thin;scrollbar-color:#b99e74 transparent;overscroll-behavior:contain;flex:1}.ds-panel p{font-size:12px;color:var(--muted,#74604e);max-width:65ch;line-height:1.75;margin:0}@media(max-width:800px){.ds-panel{width:370px;border-radius:12px}.ds-panel-head{padding:17px 19px 13px}.ds-panel h2{font-size:22px}.ds-panel-head button{width:44px;height:44px}.ds-panel-content{padding:19px}}@media(prefers-reduced-motion:reduce){.ds-panel-head button{transition:none}}"
+    },
+    {
+      "name": "Duration Choice",
+      "kind": "chip",
+      "refersTo": "duration-option",
+      "description": "A real meditation-duration task selection; selection uses lacquer and ivory. Source defines focus and selected states without a separate hover fill.",
+      "html": "<div class=\"ds-duration\" aria-label=\"Thời lượng thiền\"><button class=\"ds-selected\">5 phút</button><button>10 phút</button><button>20 phút</button></div>",
+      "css": ".ds-duration{display:flex;justify-content:center;gap:7px;flex-wrap:wrap;margin:22px 0}.ds-duration button{font-family:BeVietnam,'Segoe UI',sans-serif;padding:10px;border:0;border-radius:5px;background:#e5dfd0;color:var(--ink,#34271e);min-height:40px;font-size:11px;cursor:pointer;transition:background-color .18s,color .18s}.ds-duration .ds-selected{background:var(--primary,#743422);color:var(--cream,#f7efdf)}.ds-duration button:focus-visible{outline:3px solid #c79945;outline-offset:4px;}.ds-duration button:disabled{opacity:.5;cursor:wait}@media(max-width:800px){.ds-duration button{min-height:44px}}@media(prefers-reduced-motion:reduce){.ds-duration button{transition:none}}"
+    },
+    {
+      "name": "Bead Action",
+      "kind": "custom",
+      "refersTo": "bead-button",
+      "description": "The large circular practice control under a tabular serif count; phone diameter is 120px.",
+      "html": "<button class=\"ds-bead\"><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"12\" r=\"1\"/></svg><span>Lần một hạt</span></button>",
+      "css": ".ds-bead{font-family:BeVietnam,'Segoe UI',sans-serif;border:1px solid #c6aa79;background:#e8d8b6;color:#5d4322;border-radius:50%;width:146px;height:146px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:15px;margin:18px auto 25px;font-size:13px;box-shadow:0 8px 18px #705b2520;cursor:pointer;transition:background-color .18s,color .18s}.ds-bead svg{width:45px;height:45px;stroke-width:1.3}.ds-bead:hover{background:#ddca9e}.ds-bead:active{transform:scale(.98)}.ds-bead:focus-visible{outline:3px solid #c79945;outline-offset:4px;}@media(max-width:800px){.ds-bead{width:120px;height:120px}}@media(prefers-reduced-motion:reduce){.ds-bead{transition:none}}"
+    },
+    {
+      "name": "Movement Joystick",
+      "kind": "custom",
+      "refersTo": "movement-joystick",
+      "description": "112px captured-pointer touch control with 45px thumb and a 12% movement dead zone. The product owns one active pointer; release, cancel, lost capture, blur, hidden document, and panel opening reset movement. This preview shows visual states only.",
+      "html": "<button class=\"ds-joystick\" aria-label=\"Kéo để di chuyển\"><span class=\"ds-stick-track\"></span><span class=\"ds-stick-thumb\"><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v18M3 12h18m-6-6-3-3-3 3m6 12-3 3-3-3M6 9l-3 3 3 3m12-6 3 3-3 3\"/></svg></span></button>",
+      "css": ".ds-joystick{position:relative;width:112px;height:112px;min-width:112px;min-height:112px;border-radius:50%;background:#2b1510eb;border:1px solid #e8c77d70;touch-action:none;user-select:none;cursor:grab;display:block;padding:0;color:var(--gold,#e8c77d)}.ds-stick-track{position:absolute;inset:20px;border:1px solid #e8c77d29;border-radius:50%;pointer-events:none}.ds-stick-thumb{position:absolute;left:50%;top:50%;width:45px;height:45px;border-radius:50%;display:grid;place-items:center;background:#69452a;transform:translate(-50%,-50%);pointer-events:none;box-shadow:0 4px 12px #1b080830}.ds-stick-thumb svg{width:21px;height:21px}.ds-joystick:active{background:#48251a;cursor:grabbing}.ds-joystick:active .ds-stick-thumb{background:#8a6037}.ds-joystick:focus-visible{outline:3px solid #c79945;outline-offset:4px}.ds-joystick:disabled{opacity:.5;cursor:default}"
+    },
+    {
+      "name": "Camera Selector",
+      "kind": "custom",
+      "refersTo": "camera-selector",
+      "description": "Native camera select offering the four interior presets and character follow; hidden while welcome/task panels are open.",
+      "html": "<label class=\"ds-camera\"><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2\"/><circle cx=\"12\" cy=\"12\" r=\"1\"/><path d=\"M18.944 12.33a1 1 0 0 0 0-.66 7.5 7.5 0 0 0-13.888 0 1 1 0 0 0 0 .66 7.5 7.5 0 0 0 13.888 0\"/></svg><select aria-label=\"Góc nhìn đại điện\"><option>Theo nhân vật</option><option>Chính diện</option><option>Góc bên trái</option><option>Góc bên phải</option><option>Nhìn từ trên cao</option></select></label>",
+      "css": ".ds-camera{display:inline-flex;flex-direction:row;align-items:center;gap:8px;background:var(--hud,#2b1510ed);color:var(--gold,#e8c77d);border-radius:7px;padding:0 10px;box-shadow:0 5px 15px #16090425}.ds-camera svg{width:16px;height:16px;flex-shrink:0}.ds-camera select{font-family:BeVietnam,'Segoe UI',sans-serif;font-weight:400;width:145px;border:0;border-radius:6px;background:transparent;color:var(--text-on-dark,#f1eadb);font-size:11px;padding:10px 19px 10px 2px;min-height:38px;cursor:pointer}.ds-camera option{background:var(--night,#23120d);color:var(--cream,#f7efdf)}.ds-camera select:focus-visible{outline:3px solid #c79945;outline-offset:4px}@media(max-width:800px){.ds-camera{padding:0 8px}.ds-camera select{min-height:44px;width:140px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Inhabitable Grand Sanctuary",
+    "overview": "The visual world is a grand Buddhist sanctuary that visitors can inhabit. Red lacquer columns, carved and gilded timber coffers, amber lanterns, a monumental seated Buddha, a reflective dark timber floor, and ordered saffron cushions define the space. Compact dark lacquer controls frame the scene; opaque ivory surfaces support entry, reading, and practice tasks.\n\nThe atmosphere is warm, solemn, and measured. The user-supplied red-and-gold reference is the visual authority. The shipped result is a stylized real-time Three.js interpretation, with authored architecture, a local scanned sculpture, and a generated carving texture; it does not claim photographic reproduction. Buddhist imagery stays within its sanctuary context. Local Vietnamese-capable typography and familiar labeled controls make the space usable.",
+    "keyCharacteristics": [
+      "A continuous WebGL sanctuary with a clear central aisle and controls anchored to the edges.",
+      "Lacquer, ivory, and antique gold connect the interface to the architecture.",
+      "Noto Serif carries room identity, prayer text, and practice counters; Be Vietnam Pro carries controls and explanation.",
+      "Four explicit interior camera presets complement the character-following view.",
+      "Visible focus, mobile touch controls, and reduced-motion support remain part of the experience."
+    ],
+    "rules": [
+      {
+        "name": "The Material and Interface Rule",
+        "body": "Keep sanctuary material inputs in the 3D world and interface colors in their existing UI roles; lit WebGL pixels are not new interface tokens.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading Surface Rule",
+        "body": "Put sustained explanations, forms, and sutra text on ivory with ink or muted text; reserve compact light-on-dark typography for scene controls.",
+        "section": "typography"
+      },
+      {
+        "name": "The Clear Aisle Rule",
+        "body": "Anchor persistent controls to the edges and use one reading panel for the chosen task. Entering the sanctuary removes the welcome surface.",
+        "section": "layout"
+      },
+      {
+        "name": "The Two Surface Rule",
+        "body": "Use translucent dark lacquer for persistent scene controls and opaque ivory for reading or entry. Keep interface shadows diffuse and attached to these surfaces.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve the continuous sanctuary, clear central aisle, and edge-anchored control model.",
+      "Do use ivory reading surfaces for long text, forms, and practice details.",
+      "Do keep Be Vietnam Pro control labels and Noto Serif identity/prayer roles distinct.",
+      "Do preserve visible keyboard focus, explicit action labels, safe-area spacing, and the observed mobile touch targets.",
+      "Do respect reduced motion and bind progress, visitors, and saved wishes to actual application state.",
+      "Do retain the custom pagoda silhouette and consistent stroked SVG icons."
+    ],
+    "donts": [
+      "Don't use Buddhist imagery as incidental interface decoration.",
+      "Don't derive reusable palette values from lit WebGL pixels; use the material and interface inputs.",
+      "Don't fabricate activity counts, progress, or successful saved-wish animation.",
+      "Don't treat existing 9–11px utility labels as the recommended size for new reading content.",
+      "Don't describe the stylized real-time scene as an exact photographic reproduction of the supplied reference."
+    ]
+  }
+}
