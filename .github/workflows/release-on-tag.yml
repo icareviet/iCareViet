@@ -8,6 +8,9 @@ on:
 
 jobs:
   build:
+    defaults:
+      run:
+        working-directory: Money4Band
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -118,8 +121,8 @@ jobs:
         with:
           name: "Money4Band-${{ matrix.os }}-${{ matrix.architecture }}-${{ github.ref_name }}"
           path: |
-            Money4Band-${{ matrix.os }}-${{ matrix.architecture }}-${{ github.ref_name }}.zip
-            Money4Band-${{ matrix.os }}-${{ matrix.architecture }}-${{ github.ref_name }}.tar.gz
+            Money4Band/Money4Band-${{ matrix.os }}-${{ matrix.architecture }}-${{ github.ref_name }}.zip
+            Money4Band/Money4Band-${{ matrix.os }}-${{ matrix.architecture }}-${{ github.ref_name }}.tar.gz
           if-no-files-found: error  # Fail if no files are found
 
       # Upload build artifacts for arm/v7
@@ -129,8 +132,8 @@ jobs:
         with:
           name: "Money4Band-${{ matrix.os }}-armv7-${{ github.ref_name }}"
           path: |
-            Money4Band-${{ matrix.os }}-armv7-${{ github.ref_name }}.zip
-            Money4Band-${{ matrix.os }}-armv7-${{ github.ref_name }}.tar.gz
+            Money4Band/Money4Band-${{ matrix.os }}-armv7-${{ github.ref_name }}.zip
+            Money4Band/Money4Band-${{ matrix.os }}-armv7-${{ github.ref_name }}.tar.gz
           if-no-files-found: error  # Fail if no files are found
 
   release:
