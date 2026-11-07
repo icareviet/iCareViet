@@ -1,9 +1,9 @@
-# MMO-Tool
+# iCareViet
 
 Kho chứa các project, mỗi project nằm trong một thư mục riêng:
 
 ```text
-MMO-Tool/
+iCareViet/
 ├── Chua-Online/
 └── Money4Band/
 ```
